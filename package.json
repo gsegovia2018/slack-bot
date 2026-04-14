@@ -1,0 +1,16 @@
+{
+  "name": "slack-claude-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file=.env --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@slack/bolt": "^4.4.1",
+    "node-pty": "^1.1.0",
+    "strip-ansi": "^7.2.0"
+  }
+}
